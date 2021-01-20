@@ -16,6 +16,11 @@ import edu.pe.idat.service.AlumnoService;
 @RequestMapping("/alumno")
 public class AlumnoCursoNotaController {
 
+    /*Para hacer la prueba en Postman:
+     * En Headers agregar una key Authorization 
+     * y en el body colocar el dato a enviar como parametro.
+     * */
+	
     @Autowired
     AlumnoService alumnoService;
 	
